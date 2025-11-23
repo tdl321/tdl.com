@@ -30,23 +30,23 @@ export default function Home() {
       </div>
 
       {/* Windows Layer */}
-      <RetroWindow id="about" title="Intro" defaultPos={{ x: 50, y: 100 }}>
+      <RetroWindow id="about" title="Intro" defaultPos={{ x: 110, y: 50 }}>
         <IntroContent />
       </RetroWindow>
 
-      <RetroWindow id="experience" title="Experience" defaultPos={{ x: 250, y: 150 }}>
+      <RetroWindow id="experience" title="Experience" defaultPos={{ x: 110, y: 310 }}>
         <ExperienceContent />
       </RetroWindow>
 
-      <RetroWindow id="projects" title="Projects" defaultPos={{ x: 450, y: 200 }}>
+      <RetroWindow id="projects" title="Projects" defaultPos={{ x: 1030, y: 50 }}>
         <ProjectsContent />
       </RetroWindow>
 
-      <RetroWindow id="education" title="Education" defaultPos={{ x: 150, y: 250 }}>
+      <RetroWindow id="education" title="Education" defaultPos={{ x: 655, y: 50 }}>
         <EducationContent />
       </RetroWindow>
 
-      <RetroWindow id="interests" title="Interests" defaultPos={{ x: 350, y: 300 }}>
+      <RetroWindow id="interests" title="Interests" defaultPos={{ x: 655, y: 295 }}>
         <InterestsContent />
       </RetroWindow>
     </main>
